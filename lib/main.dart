@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Fl',
       home: Scaffold(
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
-          title: Text('Belajar Flutter'),
+          title: Text('Biodata'),
           centerTitle: true,
-          backgroundColor: Color.fromARGB(255, 238, 23, 227),
+          backgroundColor: Color.fromARGB(255, 94, 94, 94),
         ),
         body: Latihan(),
           )
